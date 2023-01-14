@@ -83,7 +83,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=y" >> .config #zerotier ~1.3M
         echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=y" >> .config #aliddns
         echo "CONFIG_FIRMWARE_INCLUDE_FRPS=y" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_FRPc=y" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_FRPC=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_TTYD=y" >> .config
         else
         echo "CONFIG_FIRMWARE_INCLUDE_MENTOHUST=n" >> .config #MENTOHUST
